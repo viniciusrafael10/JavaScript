@@ -1,6 +1,10 @@
 function inserir(num){
     var screen = document.getElementById('tela')
+    var resultado = document.getElementById('tela').innerHTML;
+    var x = resultado.length
+    if(x <= 12 ){
     screen.innerHTML += num
+    }
 }
 
 function calcular(){

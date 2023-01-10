@@ -28,10 +28,8 @@ body{
     height: 80px;
     margin-bottom:30px ;
     border-radius: 10px;
-    font-size: 4em;
+    font-size: 4.2em;
     padding-top: 10px;
-   
-    
 }
 
 .botao{
@@ -43,3 +41,19 @@ body{
     cursor: pointer;
 }
 
+.botao:hover{
+    background-color: rgba(140, 139, 139, 0.799);
+}
+
+footer{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+#desc{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 25px;
+}
